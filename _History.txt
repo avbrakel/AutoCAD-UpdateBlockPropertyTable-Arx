@@ -1,0 +1,27 @@
+UpdateBlockPropertyTable
+==============================================================================
+Known limitation:
+- non
+
+v1.0.0.1 9-April-2018 
+		Initial release created by Arie van Brakel
+v2017.4.4.552 2-Feb-2020
+		Fix if empty row value is in the defined block group (170 . -9999) 
+v2020.4.4.552 17-Feb-2020 
+		Rebuild for ac2020
+v2020.4.4.554 20-Feb-2020 
+		Fix: Newley inserted blocks are damaged after running UpdateBlockPropertyTable function.
+		Fix doesn't work for ac2020
+v2020.4.4.560 21-Feb-2020 
+		Fix for importing a longint
+		Fix if block is selected at start of function (then it started BEDIT wth this block)
+v2020.4.4.570 15-June-2021 
+		Fix for importing a longint if list needs to be expanded
+v2020.4.4.965 16-June-2021 
+		Fix issue ac2020, by closing blocktable (and removed bedit command)
+v2020.4.4.966 24-June-2021 
+		Set legal properties
+v2022.4.4.966 26-June-2021 
+		Rebuid for ac2022
+v2022.4.4.967 24-Mar-2024 
+		Cleanup of files, create documentation, load to github
